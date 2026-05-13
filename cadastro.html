@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | ConectaElas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html">Voltar para Home</a>
+        </nav>
+    </header>
+
+    <main class="container-centralizado">
+        <section class="form-box">
+            <h2>Crie seu Perfil Profissional</h2>
+            <form action="index.html" method="GET">
+                <div class="campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Ex: Maria Silva">
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail Profissional:</label>
+                    <input type="email" id="email" name="email" required placeholder="email@exemplo.com">
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required minlength="8">
+                </div>
+
+                <div class="campo">
+                    <label for="area">Área de Atuação:</label>
+                    <select id="area" name="area">
+                        <option value="tech">Tecnologia</option>
+                        <option value="saude">Saúde</option>
+                        <option value="educacao">Educação</option>
+                        <option value="negocios">Negócios</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="bio">Resumo Profissional:</label>
+                    <textarea id="bio" name="bio" rows="4" placeholder="Conte um pouco sobre suas habilidades..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-principal">Finalizar Cadastro</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
