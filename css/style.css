@@ -178,6 +178,11 @@ nav a:hover {
     font-family: inherit;
 }
 
+/* Impede que o usuário quebre o layout redimensionando a bio lateralmente */
+.campo textarea {
+    resize: vertical;
+}
+
 /* Botões */
 .btn-principal {
     display: inline-block;
@@ -230,4 +235,44 @@ footer a:hover {
     border: none;
     width: 88px;
     height: 31px;
+}
+
+/* =========================================
+   RESPONSIVIDADE (Telas menores que 768px)
+   ========================================= */
+@media (max-width: 768px) {
+    /* Empilha o logo e o menu */
+    .flex-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Centraliza os itens do menu e permite quebra de linha */
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    /* Empilha o texto e a imagem da seção principal */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    /* Empilha os cards um embaixo do outro */
+    .features {
+        flex-direction: column;
+    }
+
+    /* Empilha os nomes da equipe no rodapé */
+    .equipe {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
