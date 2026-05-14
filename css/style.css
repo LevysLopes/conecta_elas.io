@@ -77,6 +77,17 @@ nav a {
     border-radius: 15px;
     box-shadow: 10px 10px 0 #a29bfe;
 }
+/* Título da Seção Sobre */
+.secao-sobre {
+    padding-top: 20px;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 2rem;
+    color: #2d3436;
+    margin-bottom: 40px;
+}
 
 /* Cards com Flexbox */
 .features {
