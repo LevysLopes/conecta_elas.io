@@ -31,7 +31,10 @@ header {
     align-items: center;
 }
 
-.logo h1 {
+/* Alterado para a nova classe do logo */
+.logo-texto {
+    font-size: 1.8rem;
+    font-weight: bold;
     color: #2d3436;
 }
 
@@ -41,6 +44,7 @@ header {
 
 nav ul {
     display: flex;
+    align-items: center;
     list-style: none;
 }
 
@@ -52,6 +56,25 @@ nav a {
     text-decoration: none;
     color: #2d3436;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #6c5ce7;
+}
+
+/* Botão destaque no menu (Cadastre-se) */
+.btn-destaque {
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-destaque:hover {
+    background-color: #a29bfe;
+    color: #fff;
 }
 
 /* Hero Section */
@@ -66,10 +89,12 @@ nav a {
     flex: 1;
 }
 
-.hero-content h2 {
+/* Alterado de h2 para h1 para refletir a semântica do HTML */
+.hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #6c5ce7;
+    line-height: 1.2;
 }
 
 .hero-img img {
@@ -77,6 +102,7 @@ nav a {
     border-radius: 15px;
     box-shadow: 10px 10px 0 #a29bfe;
 }
+
 /* Título da Seção Sobre */
 .secao-sobre {
     padding-top: 20px;
@@ -126,6 +152,14 @@ nav a {
     max-width: 500px;
 }
 
+/* Adicionado estilo para o título da página de cadastro */
+.form-box h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d3436;
+}
+
 .campo {
     margin-bottom: 15px;
 }
@@ -141,6 +175,7 @@ nav a {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-family: inherit;
 }
 
 /* Botões */
@@ -154,6 +189,11 @@ nav a {
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.btn-principal:hover {
+    background: #a29bfe;
 }
 
 /* Rodapé */
@@ -176,6 +216,11 @@ footer a {
     color: #a29bfe;
     text-decoration: none;
 }
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 /* Selo de Validação W3C */
 .selo-w3c {
     margin-top: 20px;
