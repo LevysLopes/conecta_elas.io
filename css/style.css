@@ -176,3 +176,13 @@ footer a {
     color: #a29bfe;
     text-decoration: none;
 }
+/* Selo de Validação W3C */
+.selo-w3c {
+    margin-top: 20px;
+}
+
+.selo-w3c img {
+    border: none;
+    width: 88px;
+    height: 31px;
+}
