@@ -8,10 +8,9 @@ Estrutura do projeto:
 - login.html
 - css/style.css
 - assets/images/
-- curriculos/
 
 Integrantes:
 - Levy Gaspar — https://github.com/LevysLopes
-- Carlos Eduardo Martins Ferreira — (colocar seu link)
+- Carlos Eduardo Martins Ferreira — https://github.com/carloseduardomf
 
 GitHub Pages: https://levyslopes.github.io/conecta_elas.io/
