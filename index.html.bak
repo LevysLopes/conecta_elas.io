@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConectaElas - Networking Feminino</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container flex-header">
+            <div class="logo">
+                <p class="logo-texto">Conecta<span>Elas</span></p>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="cadastro.html" class="btn-destaque">Cadastre-se</a></li>
+            </ul>`n    <p><a href="curriculos/levy.html">Currículo Levy</a> | <a href="curriculos/carlos.html">Currículo Carlos</a></p>`n    <img src="assets/images/team-photo.jpg" alt="Equipe ConectaElas" style="width:160px;border-radius:8px;margin-top:10px;">
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content">
+                <h1>O lugar onde mulheres impulsionam carreiras.</h1>
+                <p>Uma plataforma segura para networking, mentoria e oportunidades exclusivas no mercado de trabalho.</p>
+                <a href="cadastro.html" class="btn-principal">Começar Agora</a>
+            </div>
+            <div class="hero-img">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=500" alt="Mulheres profissionais em reunião colaborativa">
+            </div>
+        </section>
+
+        <section id="sobre" class="container secao-sobre">
+            <h2 class="titulo-secao">Por que escolher o ConectaElas?</h2>
+            
+            <div class="features">
+                <article class="feature-card">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6c5ce7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    <h3>Mentoria</h3>
+                    <p>Conecte-se com líderes experientes para acelerar sua jornada profissional.</p>
+                </article>
+                <article class="feature-card">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6c5ce7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                    <h3>Vagas Direcionadas</h3>
+                    <p>Oportunidades em empresas que priorizam a equidade de gênero.</p>
+                </article>
+                <article class="feature-card">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6c5ce7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <h3>Espaço Seguro</h3>
+                    <p>Ambiente moderado para troca de experiências sem julgamentos.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 ConectaElas. Desenvolvido por:</p>
+            <ul class="equipe">
+                <li><a href="https://github.com/LevysLopes" target="_blank">Levy Gaspar</a></li>
+                <li><a href="https://github.com/carloseduardomf" target="_blank">Carlos Eduardo Martins Ferreira</a></li>
+            </ul>`n    <p><a href="curriculos/levy.html">Currículo Levy</a> | <a href="curriculos/carlos.html">Currículo Carlos</a></p>`n    <img src="assets/images/team-photo.jpg" alt="Equipe ConectaElas" style="width:160px;border-radius:8px;margin-top:10px;">
+            
+            <div class="selo-w3c">
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://levyslopes.github.io/conecta_elas.io/" target="_blank">
+                    <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="CSS válido!">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
