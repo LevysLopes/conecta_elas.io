@@ -303,8 +303,6 @@ footer a:hover {
 /* Montserrat para títulos */
 h1,h2,h3 { font-family: 'Montserrat', sans-serif; }
 
-/* Montserrat para títulos */
-h1,h2,h3 { font-family: 'Montserrat', sans-serif; }
 
 /* layout para imagens extras na hero */
 .hero-extras{ display:flex; gap:20px; align-items:flex-start; margin-top:20px; flex-direction: column;}
