@@ -276,3 +276,6 @@ footer a:hover {
         gap: 10px;
     }
 }
+
+/* Montserrat para títulos */
+h1,h2,h3 { font-family: 'Montserrat', sans-serif; }
