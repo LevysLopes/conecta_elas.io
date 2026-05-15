@@ -282,3 +282,9 @@ h1,h2,h3 { font-family: 'Montserrat', sans-serif; }
 
 /* Montserrat para títulos */
 h1,h2,h3 { font-family: 'Montserrat', sans-serif; }
+
+/* layout para imagens extras na hero */
+.hero-extras{ display:flex; gap:20px; align-items:flex-start; margin-top:20px; }
+.extra-card{ background:#fff; border-radius:8px; padding:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); max-width:260px; }
+.extra-card img{ width:100%; height:auto; border-radius:6px; display:block; }
+.extra-card figcaption{ margin-top:8px; font-size:0.95rem; color:#333; }
