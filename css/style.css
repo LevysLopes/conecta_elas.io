@@ -2,7 +2,6 @@
    ACESSIBILIDADE (ABNT NBR 17225)
    ========================================= */
 
-/* Estilo da Barra Superior */
 .barra-acessibilidade {
     background-color: #2d3436;
     padding: 8px 0;
@@ -35,14 +34,12 @@
     color: #2d3436;
 }
 
-/* Item 5.11 - Alteração de Cores (Alto Contraste) */
 body.alto-contraste {
     --primaria: #ffff00; /* Muda a variável global para amarelo vivo */
     background-color: #000;
     color: #fff;
 }
 
-/* Inverte as cores dos cards e formulários */
 body.alto-contraste header,
 body.alto-contraste .feature-card,
 body.alto-contraste .form-box,
@@ -52,7 +49,6 @@ body.alto-contraste .extra-card {
     box-shadow: none;
 }
 
-/* Força os textos para branco */
 body.alto-contraste h1, 
 body.alto-contraste h2, 
 body.alto-contraste h3, 
@@ -63,7 +59,6 @@ body.alto-contraste label {
     color: #fff;
 }
 
-/* Cores de destaque e ícones SVG */
 body.alto-contraste .logo span { color: #ffff00; }
 body.alto-contraste svg { stroke: #ffff00; }
 
@@ -79,7 +74,6 @@ body.alto-contraste .btn-login {
     border-color: #ffff00;
 }
 
-/* Campos de entrada do formulário */
 body.alto-contraste input, 
 body.alto-contraste select, 
 body.alto-contraste textarea {
